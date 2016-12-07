@@ -1,0 +1,19 @@
+Executable : /Users/neilconnatty/AndroidTools/android-sdk-macosx/cmake/3.6.3155560/bin/cmake
+arguments : 
+-H/Users/neilconnatty/AndroidStudioProjects/odg-controller-android/app
+-B/Users/neilconnatty/AndroidStudioProjects/odg-controller-android/app/.externalNativeBuild/cmake/release/mips
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=mips
+-DANDROID_NDK=/Users/neilconnatty/AndroidTools/android-sdk-macosx/ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/neilconnatty/AndroidStudioProjects/odg-controller-android/app/build/intermediates/cmake/release/obj/mips
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_MAKE_PROGRAM=/Users/neilconnatty/AndroidTools/android-sdk-macosx/cmake/3.6.3155560/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=/Users/neilconnatty/AndroidTools/android-sdk-macosx/ndk-bundle/build/cmake/android.toolchain.cmake
+-DANDROID_NATIVE_API_LEVEL=17
+-DCMAKE_CXX_FLAGS=-std=c++11 -fexceptions
+-DANDROID_TOOLCHAIN=clang
+-DANDROID_STL=c++_shared
+-DANDROID_CPP_FEATURES=exceptions
+-DANDROID_ALLOW_UNDEFINED_SYMBOLS=false
+jvmArgs : 
+
