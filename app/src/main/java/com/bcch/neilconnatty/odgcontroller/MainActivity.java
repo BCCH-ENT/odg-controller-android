@@ -6,11 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class MainActivity extends AppCompatActivity {
-
-    static final String SUBSCRIBE_KEY = "sub-c-3dc063c8-9bc0-11e6-814f-0619f8945a4f";
-    static final String PUBLISH_KEY = "pub-c-ffee06f7-78b5-483c-b800-fae8f3a67f0c";
-
+public class MainActivity extends AppCompatActivity
+{
     // Used to load the 'native-lib' library on application startup.
     static {
         System.loadLibrary("MessagingService");
@@ -19,12 +16,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate (Bundle savedInstanceState)
     {
-        /*
-        PNConfiguration pnConfiguration = new PNConfiguration();
-        pnConfiguration.setSubscribeKey(SUBSCRIBE_KEY);
-        pnConfiguration.setPublishKey(PUBLISH_KEY);
-        */
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
