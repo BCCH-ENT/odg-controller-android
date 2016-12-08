@@ -5,7 +5,6 @@
 #include <android/log.h>
 #include <string>
 #include "pubnub.hpp"
-#include "messenger.h"
 #include "pubnub_interface.h"
 
 extern "C"
